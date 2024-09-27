@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p-tabview-panels {
+    padding: 1rem 0px !important;
+}
+.p-tabview .p-tabview-nav{
+    border-color: white;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link{
+    border-color: transparent;
+}
+
+ul.p-tabview-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-inputtext:enabled:focus {
+    border-color: #eee !important;
+    box-shadow: 0 0 0 0 #fff !important;
+}
+
+.p-inputtext:hover{
+    border-color: #eee !important;
+}
+
+.send-message button.p-button {
+    background: #fff;
+    border-color: #eee;
+    color: #9ca3af !important;
+}
+
+.send-message button.p-button:hover {
+    background: #fff;
+    border-color: #eee;
+    color: #212121 !important;
+}
